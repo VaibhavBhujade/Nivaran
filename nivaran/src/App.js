@@ -1,28 +1,36 @@
 import React from 'react';
 import  { Component } from 'react';
-import TopCarousel from './components/main/TopCarousel';
-import Main from './components/main/MainComponent';
-import Post from './components/main/PostComponent';
-import NavigBar from './components/main/NavBarComponent';
-import VerticalNav from './components/main/VerticalNavBarComponent';
-import NewPost from './components/main/NewPostComponent';
-import InfoCard from './components/main/InfoCard';
+import TopCarousel from './Components/main/TopCarousel';
+import Main from './Components/main/MainComponent';
+import Post from './Components/main/PostComponent';
+import NavigBar from './Components/main/NavBarComponent';
+import VerticalNav from './Components/main/VerticalNavBarComponent';
+import NewPost from './Components/main/NewPostComponent';
+import InfoCard from './Components/main/InfoCard';
+import MyNavBar from './Components/main/nav_bar';
+import RegisterForm from './Components/main/registration'
 import './App.css';
 
 import { Container, Row, Col, Button } from 'reactstrap';
 
-function App() {
+class App extends Component {
   
+  render(){
   return (
         <>
         <div className="App">
         <Main/>
+        
+        <MyNavBar/>
         <Row>
           <Col xs="3">
             <VerticalNav />
           </Col>
+          
+
           <Col xs="5">
-          <TopCarousel />
+          
+          <NewPost />
           </Col>
           <Col>
             <InfoCard />
@@ -32,15 +40,14 @@ function App() {
         <Row>
           <Col xs="3">
           </Col>
-          <Col>
-            <NewPost />
-          </Col>
+          
         </Row>
         
         <Post />
         </div>
         </>
   );
+}
 }
 export default App;
 
