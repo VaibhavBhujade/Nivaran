@@ -1,0 +1,12 @@
+/* h1 { color: #ffffff; font-family: 'Trocchi', serif;  
+    font-weight: normal; line-height: 10px; margin: 2px;
+    font-size: 100px;
+} */
+
+.Header {
+    background-color: #14015A;
+    padding: 3px;
+    font-size: 100px;
+    color: #ffffff;
+    font-family: 'Trocchi', serif;
+}
