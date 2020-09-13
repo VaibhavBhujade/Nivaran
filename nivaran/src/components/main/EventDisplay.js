@@ -13,7 +13,7 @@ import {
 
 const style = { width: "25rem" , margin: "10px"};
 
-class Post extends Component {
+class DisplayEvent extends Component {
 
  
   render()
@@ -47,7 +47,8 @@ class Post extends Component {
           </Card>
         </Col>
       
-        <Col xs="5">
+        <Col xs="10"></Col>
+        <Col>
           <Card style={style}>
             <CardImg
               alt="..."
@@ -70,6 +71,7 @@ class Post extends Component {
             </CardBody>
           </Card>
         </Col>
+      
       </Row>
 
       
@@ -79,4 +81,4 @@ class Post extends Component {
   }
 }
 
-export default Post;
+export default DisplayEvent;

@@ -8,9 +8,10 @@ import VerticalNav from './Components/main/VerticalNavBarComponent';
 import NewPost from './Components/main/NewPostComponent';
 import InfoCard from './Components/main/InfoCard';
 import MyNavBar from './Components/main/HorizontalNavBar';
-import RegisterForm from './Components/main/Registration'
+import RegisterForm from './Components/main/Registration';
+import EventDisplay from './Components/main/EventDisplay';
+import Campaign from './Components/main/AddCampaign';
 import './App.css';
-
 import { Container, Row, Col, Button } from 'reactstrap';
 
 class App extends Component {
@@ -20,24 +21,47 @@ class App extends Component {
       <>
         <div className="App">
             <Main/>
-        
             <MyNavBar/>
+            
+            <Row>
+              <Col xs="3">
+                  <VerticalNav/>
+                </Col>
+
+                        
+              <Col xs="2">
+                  <Campaign/>
+                  <center>
+                    <Col xs="10">
+                      <Post/>
+                      </Col>
+                  </center>
+                </Col>
+
+            </Row>
+            
+            {/* <Main/>
+              <MyNavBar/>
+              <Row>
+                <Col xs="3">
+                  <VerticalNav />
+                </Col>
+                <Col xs="5">
+                  <NewPost />
+                </Col>
+                <Col>
+                  <InfoCard />
+                </Col>
+                <Col>
+                  <Post />
+                </Col>
+              </Row>
           <Row>
             <Col xs="3">
-              <VerticalNav />
-            </Col>
-            <Col xs="5">
-              <NewPost />
-            </Col>
-            <Col>
-              <InfoCard />
             </Col>
           </Row>
-          <Row>
-            <Col xs="3">
-            </Col>
-          </Row>
-            <Post />
+            */}
+
         </div>
       </>
   );

@@ -28,7 +28,8 @@ const VerticalNav = (props) => {
                         <NavLink href="#">Login</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink disabled href="#">Settings</NavLink>
+                          
+                        <NavLink disabled href="#">Register</NavLink>
                         </NavItem>
                     </Nav>
                     <hr />
