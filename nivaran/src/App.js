@@ -17,35 +17,29 @@ class App extends Component {
   
   render(){
   return (
-        <>
+      <>
         <div className="App">
-        <Main/>
+            <Main/>
         
-        <MyNavBar/>
-        <Row>
-          <Col xs="3">
-            <VerticalNav />
-          </Col>
-          
-
-          <Col xs="5">
-          
-          <NewPost />
-          </Col>
-          <Col>
-            <InfoCard />
-          </Col>
-          
-        </Row>
-        <Row>
-          <Col xs="3">
-          </Col>
-          
-        </Row>
-        
-        <Post />
+            <MyNavBar/>
+          <Row>
+            <Col xs="3">
+              <VerticalNav />
+            </Col>
+            <Col xs="5">
+              <NewPost />
+            </Col>
+            <Col>
+              <InfoCard />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs="3">
+            </Col>
+          </Row>
+            <Post />
         </div>
-        </>
+      </>
   );
 }
 }

@@ -15,8 +15,8 @@ class MyNavBar extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="#home"><h4 style={{ color: 'white' }}>Home</h4></Nav.Link>
-                        <Nav.Link href="#link"><h4 style={{ color: 'white' }}>Events and Drives</h4></Nav.Link>
-                        <Nav.Link href="#link"><h4 style={{ color: 'white' }}>Food</h4></Nav.Link>
+                        <Nav.Link href="#link"><h4 style={{ color: 'white' }}>About us</h4></Nav.Link>
+                        <Nav.Link href="#link"><h4 style={{ color: 'white' }}>Contact</h4></Nav.Link>
                     </Nav>
 
                     <Form inline>

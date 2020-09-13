@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './create_event_post.css';
+import './styles/create_event_post.css';
 import {Row,Col} from 'reactstrap';
 import {
     Card, CardImg, CardText, CardBody,
