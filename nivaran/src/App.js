@@ -7,8 +7,8 @@ import NavigBar from './Components/main/NavBarComponent';
 import VerticalNav from './Components/main/VerticalNavBarComponent';
 import NewPost from './Components/main/NewPostComponent';
 import InfoCard from './Components/main/InfoCard';
-import MyNavBar from './Components/main/nav_bar';
-import RegisterForm from './Components/main/registration'
+import MyNavBar from './Components/main/HorizontalNavBar';
+import RegisterForm from './Components/main/Registration'
 import './App.css';
 
 import { Container, Row, Col, Button } from 'reactstrap';

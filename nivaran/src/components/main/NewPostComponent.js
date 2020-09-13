@@ -4,8 +4,8 @@ import {
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
 import TopCarousel from './TopCarousel';
-import MyForm from './create_event_post';
-import RegisterForm from './registration';
+import RegisterForm from './Registration';
+import PostForm from './EventPost';
 
   
 class NewPost extends Component {
@@ -31,7 +31,7 @@ class NewPost extends Component {
         return(
 
             <div style={myStyle}>
-                {(!this.state.add_post) ? <TopCarousel /> : <RegisterForm />}
+                {(!this.state.add_post) ? <TopCarousel /> : <PostForm />}
 
                 <Button onClick={()=>this.change_val()}>Create new Post</Button>
             </div>
