@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import img3 from './images/i3.jpg';
-// reactstrap components
 import {
   Container, Row, Col,
   Button,

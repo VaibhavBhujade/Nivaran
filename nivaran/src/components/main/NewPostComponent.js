@@ -4,7 +4,7 @@ import {
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
 import TopCarousel from './TopCarousel';
-import RegisterForm from './Registration';
+import RegisterForm from './registration';
 import PostForm from './EventPost';
 
   

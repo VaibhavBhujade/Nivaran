@@ -38,7 +38,6 @@ class RegisterForm extends Component {
                               type="text"
                                 name="email"
                                 id="exampleEmail"
-                                //placeholder="myemail@email.com"
                              />
                       </FormGroup>
 
