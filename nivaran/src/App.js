@@ -1,16 +1,16 @@
 import React from 'react';
 import  { Component } from 'react';
-import TopCarousel from './Components/main/TopCarousel';
-import Main from './Components/main/MainComponent';
-import Post from './Components/main/PostComponent';
-import NavigBar from './Components/main/NavBarComponent';
-import VerticalNav from './Components/main/VerticalNavBarComponent';
-import NewPost from './Components/main/NewPostComponent';
-import InfoCard from './Components/main/InfoCard';
-import MyNavBar from './Components/main/HorizontalNavBar';
-import RegisterForm from './Components/main/Registration';
-import EventDisplay from './Components/main/EventDisplay';
-import Campaign from './Components/main/AddCampaign';
+import TopCarousel from './components/main/TopCarousel';
+import Main from './components/main/MainComponent';
+import Post from './components/main/PostComponent';
+import NavigBar from './components/main/NavBarComponent';
+import VerticalNav from './components/main/VerticalNavBarComponent';
+import NewPost from './components/main/NewPostComponent';
+import InfoCard from './components/main/InfoCard';
+import MyNavBar from './components/main/HorizontalNavBar';
+import RegisterForm from './components/main/registration';
+import EventDisplay from './components/main/EventDisplay';
+import Campaign from './components/main/AddCampaign';
 import './App.css';
 import { Container, Row, Col, Button } from 'reactstrap';
 
@@ -20,7 +20,7 @@ class App extends Component {
   return (
       <>
         <div className="App">
-            <Main/>
+            {/* <Main/>
             <MyNavBar/>
             
             <Row>
@@ -38,9 +38,9 @@ class App extends Component {
                   </center>
                 </Col>
 
-            </Row>
+            </Row> */}
             
-            {/* <Main/>
+             <Main/>
               <MyNavBar/>
               <Row>
                 <Col xs="3">
@@ -60,7 +60,7 @@ class App extends Component {
             <Col xs="3">
             </Col>
           </Row>
-            */}
+            
 
         </div>
       </>
